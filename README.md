@@ -1,2 +1,2 @@
 # Bio-Sequencescape-Schema
-DBIC schema for sequencescape warehouse
+DBIx::Class schema for sequencescape warehouse
