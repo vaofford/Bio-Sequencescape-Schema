@@ -263,6 +263,12 @@ __PACKAGE__->table("studies");
   is_nullable: 1
   size: 255
 
+=head2 hmdmc_number
+
+  data_type: 'varchar'
+  is_nullable: 1
+  size: 255
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -370,6 +376,8 @@ __PACKAGE__->add_columns(
   { data_type => "varchar", is_nullable => 1, size => 255 },
   "prelim_id",
   { data_type => "varchar", is_nullable => 1, size => 255 },
+  "hmdmc_number",
+  { data_type => "varchar", is_nullable => 1, size => 255 },
 );
 
 =head1 UNIQUE CONSTRAINTS
@@ -394,8 +402,8 @@ __PACKAGE__->add_unique_constraint(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07042 @ 2016-01-07 16:54:29
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:qIKg5XuQlRLHrGj9asHg/g
+# Created by DBIx::Class::Schema::Loader v0.07039 @ 2019-03-25 22:09:33
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:Gbcj+f3jm6AMcbDddAiNJw
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
